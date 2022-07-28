@@ -18,13 +18,14 @@
   <header>
     <div class="container-xxl">
       <!-- NAVBAR AREA START -->
-      <nav class="navbar navbar-expand-lg py-lg-4">
-        <a class="navbar-brand" href="#">Beta Com</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu" aria-controls="navMenu" aria-expanded="false" aria-label="Toggle navigation">
+      <nav class="navbar navbar-expand-lg py-3 py-md-4">
+        <a class="navbar-brand font-exo" href="#">Beta Com</a>
+        <a href="#" class="btn ms-auto me-3 btn-outline-primary py-2 px-4 d-none d-md-block d-lg-none" type="submit">Register</a>
+        <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu" aria-controls="navMenu" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navMenu">
-          <ul class="navbar-nav mx-auto mb-2 mb-lg-0 gap-4">
+          <ul class="navbar-nav mx-auto mb-2 py-2 mb-lg-0 gap-lg-4">
             <li class="nav-item">
               <a class="nav-link" href="#">Home</a>
             </li>
@@ -44,7 +45,7 @@
               <a class="nav-link" href="#">Register</a>
             </li>
           </ul>
-          <button class="btn btn-outline-info py-2 px-4" type="submit">Register</button>
+          <a href="#" class="btn btn-outline-primary py-2 px-4 d-md-none d-lg-block" type="submit">Register</a>
         </div>
       </nav>
       <!-- NAVBAR AREA END -->
@@ -52,12 +53,14 @@
       <!-- BANNER SLIDER START -->
       <div id="bannerSlider" class="carousel slide banner-slider" data-bs-ride="false">
         <div class="carousel-inner">
-          <div class="carousel-item single-banner active">
-            <img src="./images/cover/cover-1.png" class="d-block w-100" alt="...">
+          <div class="carousel-item single-banner bg-dark active">
+            <img src="./images/cover/cover-1.png" class="d-block w-100 opacity-25" alt="...">
             <div class="carousel-caption d-flex flex-column gy-5 justify-content-center align-items-center top-0">
-              <h2 class="slider-title fw-bold">Get Started Digital Learning</h2>
-              <p class="slider-para">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
-              <a href="#" class="btn btn-primary py-2 px-4">Get Started</a>
+              <h2 class="slider-title font-exo">
+                Get Started Digital Learning
+              </h2>
+              <p class="slider-slogan fw-light py-3 lh-base">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+              <a href="#" class="btn btn-primary py-2 px-4 font-exo">Get Started</a>
             </div>
           </div>
         </div>
@@ -76,22 +79,32 @@
   <!-- HEADER AREA END -->
 
   <!-- MAIN CONTENT AREA START -->
-  <main class="main-content">
+  <main class="main-content py-5">
     <div class="container-xxl">
 
       <!-- POPULAR COURSES START -->
       <section class="populer-courses">
-        <div class="section-info">
-          <h2 class="section-title">Discover Our Popular Courses</h2>
-          <p class="section-para">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+        <div class="section-info text-center py-4">
+          <h2 class="section-title font-exo">Discover Our Popular Courses</h2>
+          <p class="section-para py-2">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
         </div>
         <div class="section-content courses">
           <div class="row g-4">
             <div class="col-lg-6 col-md-12">
               <div class="card single-course flex-md-row">
                 <img class="img-fluid" src="./images/course/course-1.png" alt="Title">
-                <div class="card-body w-">
-                  <h4 class="card-title">Title</h4>
+                <div class="card-body d-flex flex-column justify-content-center">
+                  <h4 class="course-title font-exo">Fundamental Of UI/UX Design</h4>
+                  <p class="course-para font-light py-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo magnam quasi ducimus illo saepe, quod doloremque.</p>
+                  <p class="course-price font-exo text-primary">Price: 20$</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6 col-md-12">
+              <div class="card single-course flex-md-row">
+                <img class="img-fluid" src="./images/course/course-1.png" alt="Title">
+                <div class="card-body">
+                  <h4 class="card-title course-title font-exo">Title</h4>
                   <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo magnam quasi ducimus illo saepe, quod doloremque.</p>
                   <p class="course-price">Price: 20$</p>
                 </div>
@@ -100,8 +113,8 @@
             <div class="col-lg-6 col-md-12">
               <div class="card single-course flex-md-row">
                 <img class="img-fluid" src="./images/course/course-1.png" alt="Title">
-                <div class="card-body w-">
-                  <h4 class="card-title">Title</h4>
+                <div class="card-body">
+                  <h4 class="card-title course-title font-exo">Title</h4>
                   <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo magnam quasi ducimus illo saepe, quod doloremque.</p>
                   <p class="course-price">Price: 20$</p>
                 </div>
@@ -110,8 +123,8 @@
             <div class="col-lg-6 col-md-12">
               <div class="card single-course flex-md-row">
                 <img class="img-fluid" src="./images/course/course-1.png" alt="Title">
-                <div class="card-body w-">
-                  <h4 class="card-title">Title</h4>
+                <div class="card-body">
+                  <h4 class="card-title course-title font-exo">Title</h4>
                   <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo magnam quasi ducimus illo saepe, quod doloremque.</p>
                   <p class="course-price">Price: 20$</p>
                 </div>
@@ -120,8 +133,8 @@
             <div class="col-lg-6 col-md-12">
               <div class="card single-course flex-md-row">
                 <img class="img-fluid" src="./images/course/course-1.png" alt="Title">
-                <div class="card-body w-">
-                  <h4 class="card-title">Title</h4>
+                <div class="card-body">
+                  <h4 class="card-title course-title font-exo">Title</h4>
                   <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo magnam quasi ducimus illo saepe, quod doloremque.</p>
                   <p class="course-price">Price: 20$</p>
                 </div>
@@ -130,18 +143,8 @@
             <div class="col-lg-6 col-md-12">
               <div class="card single-course flex-md-row">
                 <img class="img-fluid" src="./images/course/course-1.png" alt="Title">
-                <div class="card-body w-">
-                  <h4 class="card-title">Title</h4>
-                  <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo magnam quasi ducimus illo saepe, quod doloremque.</p>
-                  <p class="course-price">Price: 20$</p>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-6 col-md-12">
-              <div class="card single-course flex-md-row">
-                <img class="img-fluid" src="./images/course/course-1.png" alt="Title">
-                <div class="card-body w-">
-                  <h4 class="card-title">Title</h4>
+                <div class="card-body">
+                  <h4 class="card-title course-title font-exo">Title</h4>
                   <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo magnam quasi ducimus illo saepe, quod doloremque.</p>
                   <p class="course-price">Price: 20$</p>
                 </div>
@@ -166,7 +169,7 @@
           </div>
           <div class="col-md-6">
             <div class="explore-content p-lg-5 p-3">
-              <h2 class="content-title">Explore The Elearning Institute</h2>
+              <h2 class="content-title font-exo">Explore The Elearning Institute</h2>
               <p class="content-para">
                 There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure.
               </p>
@@ -204,7 +207,7 @@
         <div class="row">
           <div class="col-md-6">
             <div class="register-content">
-              <h2 class="content-title">Ready to join?</h2>
+              <h2 class="content-title font-exo">Ready to join?</h2>
               <p class="content-para">
                 It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
               </p>
@@ -222,7 +225,7 @@
       <!-- SUCCESSFULL STUDENTS AREA START -->
       <section class="successfull-students">
         <div class="section-info">
-          <h2 class="section-title">Meet Our Successfull Students</h2>
+          <h2 class="section-title font-exo">Meet Our Successfull Students</h2>
           <p class="section-para">
             It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
           </p>
@@ -276,7 +279,7 @@
       <!-- STUDENTS FEEDBACK START -->
       <section class="students-feedback">
         <div class="section-info">
-          <h2 class="section-title">Some Students Feedback</h2>
+          <h2 class="section-title font-exo font-exo">Some Students Feedback</h2>
           <p class="section-para">
             It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
           </p>
@@ -309,7 +312,7 @@
       <!-- FAQs AREA START -->
       <section class="faqs-area">
         <div class="section-info">
-          <h2 class="section-title">Frequently Asked Questions</h2>
+          <h2 class="section-title font-exo font-exo">Frequently Asked Questions</h2>
           <p class="section-para">
             It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
           </p>
@@ -360,7 +363,7 @@
       <!-- TRUSTED COMPANIES AREA START -->
       <sectino class="trusted-comapnies">
         <div class="section-info">
-          <h2 class="section-title">Trusted by over 800+ companies</h2>
+          <h2 class="section-title font-exo font-exo">Trusted by over 800+ companies</h2>
         </div>
         <div class="section-content companies">
           <div class="row g-2">
@@ -393,33 +396,34 @@
 
   <!-- FOOTER AREA START -->
   <footer class="footer">
-    <h2 class="footer-logo">Pro Edu</h2>
-    <p class="footer-address">
-      Office 41, Zawaya Buildin, Ghala Muscot,
-      <span class="footer-sloga">Sultanate of Oman</span>
-    </p>
-    <div class="footer-navs">
-      <a href="#">Privacy Policy</a> | <a href="#">Terms of use</a>
-    </div>
-    <div class="footer-socials">
-      <ul class="navbar-nav flex-row gap-4 mt-2 mt-lg-0">
-        <li class="nav-item">
-          <a class="nav-link" href="#"><i class="fa-brands fa-facebook-f"></i></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#"><i class="fa-brands fa-twitter"></i></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#"><i class="fa-brands fa-linkedin-in"></i></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#"><i class="fa-brands fa-youtube"></i></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#"><i class="fa-brands fa-pinterest-p"></i></a>
-        </li>
-      </ul>
-      
+    <div class="container-lg">
+      <h2 class="footer-logo font-exo">BetaCom</h2>
+      <p class="footer-address">
+        Office 41, Zawaya Buildin, Ghala Muscot,
+        <span class="footer-sloga">Sultanate of Oman</span>
+      </p>
+      <div class="footer-navs">
+        <a href="#">Privacy Policy</a> | <a href="#">Terms of use</a>
+      </div>
+      <div class="footer-socials">
+        <ul class="navbar-nav flex-row gap-4 mt-2 mt-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="#"><i class="fa-brands fa-facebook-f"></i></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"><i class="fa-brands fa-twitter"></i></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"><i class="fa-brands fa-youtube"></i></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"><i class="fa-brands fa-pinterest-p"></i></a>
+          </li>
+        </ul>
+      </div>
     </div>
   </footer>
   <!-- FOOTER AREA END -->
