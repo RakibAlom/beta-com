@@ -8,6 +8,12 @@
 body{
   font-family: 'Poppins', sans-serif;
 }
+h2,h3,h4,h5,h6{
+  color: var(--title-color)
+}
+.paro{
+  color: var(--text-color);
+}
 .font-exo{
   font-family: 'Exo 2', sans-serif;
   font-weight: 600;
@@ -38,6 +44,9 @@ body{
 }
 /* BANNER SLIDER END */
 
+.explore-content {
+  background-color: #F4FAFD;
+}
 /* REGISTER JOIN AREA START */
 .register-join{
   background-color: var(--primary-color);
