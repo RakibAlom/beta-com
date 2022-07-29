@@ -27,7 +27,6 @@ body{
   margin: auto;
 }
 
-/* =========== HEADER AREA START =========== */
 /* NAVAR START */
 .navbar-brand{
   font-size: 2.5rem;
@@ -40,9 +39,8 @@ body{
   object-fit: cover;
 }
 /* BANNER SLIDER END */
-/* =========== HEADER AREA END =========== */
 
-/* =========== REGISTER JOIN AREA START ===========  */
+/* REGISTER JOIN AREA START */
 .register-join{
   background-color: var(--primary-color);
 }
@@ -56,10 +54,16 @@ body{
   background-color: transparent;
   color: #fff;
 }
-/* =========== REGISTER JOIN AREA END ===========  */
+/* REGISTER JOIN AREA END */
 
+/* FAQs AREA START */
+.faqs-area .accordion{
+  max-width: 992px;
+  margin: 0 auto;
+}
+/* FAQs AREA END */
 
-/* =========== MEDIA QUERY START =========== */
+/* MEDIA QUERY START */
 @media screen and (max-width:640px) {
   .navbar-brand{
     font-size: 1.5rem;
@@ -71,7 +75,7 @@ body{
   font-size: 0.9rem;
  }
 }
-/* =========== MEDIA QUERY END =========== */
+/* MEDIA QUERY END */
 
 
 
