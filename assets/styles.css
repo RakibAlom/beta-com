@@ -9,7 +9,6 @@
 body{
   font-family: 'Poppins', sans-serif;
 }
-
 .font-exo{
   font-family: 'Exo 2', sans-serif;
   font-weight: 600;
@@ -22,6 +21,10 @@ body{
 .button-outline{
   border-color: var(--primary-color);
   color: var(--primary-color);
+}
+.section-info{
+  max-width: 600px;
+  margin: auto;
 }
 
 /* =========== HEADER AREA START =========== */
@@ -39,6 +42,21 @@ body{
 /* BANNER SLIDER END */
 /* =========== HEADER AREA END =========== */
 
+/* =========== REGISTER JOIN AREA START ===========  */
+.register-join{
+  background-color: var(--primary-color);
+}
+.register-button{
+  border-color: var(--primary-color);
+  background-color: #fff;
+  color: var(--primary-color);
+}
+.register-button:hover{
+  border-color: #fff;
+  background-color: transparent;
+  color: #fff;
+}
+/* =========== REGISTER JOIN AREA END ===========  */
 
 
 /* =========== MEDIA QUERY START =========== */
