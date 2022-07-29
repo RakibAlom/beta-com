@@ -5,7 +5,6 @@
   --title-color: #1D1D1D;
   --text-color:#777777;
 }
-
 body{
   font-family: 'Poppins', sans-serif;
 }
@@ -22,13 +21,12 @@ body{
   border-color: var(--primary-color);
   color: var(--primary-color);
 }
-.section-info{
+.section-info:not(.trusted-comapnies .section-info){
   max-width: 600px;
   margin: auto;
 }
-
-/* NAVAR START */
-.navbar-brand{
+.navbar-brand,
+.footer-brand{
   font-size: 2.5rem;
 }
 /* NAVAR END */
@@ -63,9 +61,17 @@ body{
 }
 /* FAQs AREA END */
 
+/* FOOTER AREA START */
+.footer-socials .nav-link{
+ height: 30px;
+ width: 30px;
+}
+/* FOOTER AREA END */
+
 /* MEDIA QUERY START */
 @media screen and (max-width:640px) {
-  .navbar-brand{
+  .navbar-brand,
+  .footer-brand{
     font-size: 1.5rem;
   }
  .slider-title{
