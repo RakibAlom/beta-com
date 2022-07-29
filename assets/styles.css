@@ -21,8 +21,8 @@ body{
   border-color: var(--primary-color);
   color: var(--primary-color);
 }
-.section-info:not(.trusted-comapnies .section-info){
-  max-width: 600px;
+.section-info:not(.trusted-comapnies .section-info,.faqs-area .section-info){
+  max-width: 700px;
   margin: auto;
 }
 .navbar-brand,
